@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\NewHesabo\\Hesabo\\Hesabo.Financing.Application\\Hesabo.Financing.Application.csproj": {}
+    "C:\\projects\\Infra\\NewHesabo\\Hesabo\\Hesabo.Financing.Application\\Hesabo.Financing.Application.csproj": {}
   },
   "projects": {
-    "C:\\projects\\NewHesabo\\Hesabo\\Hesabo.Financing.Application\\Hesabo.Financing.Application.csproj": {
+    "C:\\projects\\Infra\\NewHesabo\\Hesabo\\Hesabo.Financing.Application\\Hesabo.Financing.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\NewHesabo\\Hesabo\\Hesabo.Financing.Application\\Hesabo.Financing.Application.csproj",
+        "projectUniqueName": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\Hesabo.Financing.Application\\Hesabo.Financing.Application.csproj",
         "projectName": "Hesabo.Financing.Application",
-        "projectPath": "C:\\projects\\NewHesabo\\Hesabo\\Hesabo.Financing.Application\\Hesabo.Financing.Application.csproj",
+        "projectPath": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\Hesabo.Financing.Application\\Hesabo.Financing.Application.csproj",
         "packagesPath": "C:\\Users\\Arezu\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\NewHesabo\\Hesabo\\Hesabo.Financing.Application\\obj\\",
+        "outputPath": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\Hesabo.Financing.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Arezu\\AppData\\Roaming\\NuGet\\NuGet.Config"

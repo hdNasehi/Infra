@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "jDOXtI54mCe7tWiDHK2L8uLfVkP4VDydQNT7Nbv1wXcoCEOyMrlSmWqVCXdXwIGRG8fPNFsayV/t8gZZU/lpIg==",
-  "success": false,
-  "projectFilePath": "C:\\projects\\NewHesabo\\Hesabo\\shared\\Hesabo.Foundation\\Hesabo.Foundation.csproj",
+  "dgSpecHash": "89LoFUZBYaaRq7Zm78dwMYdtGJmouWDrfAP6121zQ+yqkL57PXmt81hxm5ZPD6Tzyc9mHG6o90ULaUTdV2hyAw==",
+  "success": true,
+  "projectFilePath": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.Foundation\\Hesabo.Foundation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arezu\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
     "C:\\Users\\Arezu\\.nuget\\packages\\mediatr\\12.0.0\\mediatr.12.0.0.nupkg.sha512",
     "C:\\Users\\Arezu\\.nuget\\packages\\mediatr.contracts\\2.0.0\\mediatr.contracts.2.0.0.nupkg.sha512",
+    "C:\\Users\\Arezu\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "C:\\Users\\Arezu\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.6\\microsoft.aspnetcore.openapi.8.0.6.nupkg.sha512",
     "C:\\Users\\Arezu\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\Arezu\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0\\microsoft.entityframeworkcore.8.0.0.nupkg.sha512",
     "C:\\Users\\Arezu\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.0\\microsoft.entityframeworkcore.abstractions.8.0.0.nupkg.sha512",
@@ -40,6 +42,7 @@
     "C:\\Users\\Arezu\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\Arezu\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\8.0.0\\microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
     "C:\\Users\\Arezu\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Arezu\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\Arezu\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
     "C:\\Users\\Arezu\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0\\system.diagnostics.eventlog.8.0.0.nupkg.sha512",
     "C:\\Users\\Arezu\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
@@ -47,10 +50,11 @@
   ],
   "logs": [
     {
-      "code": "NU1102",
-      "level": "Error",
-      "message": "Unable to find package MediatR.Extensions.Microsoft.DependencyInjection with version (>= 12.0.0)\r\n  - Found 23 version(s) in nuget.org [ Nearest version: 11.1.0 ]",
-      "libraryId": "MediatR.Extensions.Microsoft.DependencyInjection",
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 12.0.0 was resolved.",
+      "libraryId": "MediatR",
       "targetGraphs": [
         "net8.0"
       ]

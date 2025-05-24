@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\NewHesabo\\Hesabo\\shared\\Hesabo.Messaging\\Hesabo.Messaging.csproj": {}
+    "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.Messaging\\Hesabo.Messaging.csproj": {}
   },
   "projects": {
-    "C:\\projects\\NewHesabo\\Hesabo\\shared\\Hesabo.Messaging\\Hesabo.Messaging.csproj": {
+    "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.Messaging\\Hesabo.Messaging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\NewHesabo\\Hesabo\\shared\\Hesabo.Messaging\\Hesabo.Messaging.csproj",
+        "projectUniqueName": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.Messaging\\Hesabo.Messaging.csproj",
         "projectName": "Hesabo.Messaging",
-        "projectPath": "C:\\projects\\NewHesabo\\Hesabo\\shared\\Hesabo.Messaging\\Hesabo.Messaging.csproj",
+        "projectPath": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.Messaging\\Hesabo.Messaging.csproj",
         "packagesPath": "C:\\Users\\Arezu\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\NewHesabo\\Hesabo\\shared\\Hesabo.Messaging\\obj\\",
+        "outputPath": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.Messaging\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Arezu\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\NewHesabo\\Hesabo\\shared\\Hesabo.EventDriven\\Hesabo.EventDriven.csproj": {}
+    "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.EventDriven\\Hesabo.EventDriven.csproj": {}
   },
   "projects": {
-    "C:\\projects\\NewHesabo\\Hesabo\\shared\\Hesabo.EventDriven\\Hesabo.EventDriven.csproj": {
+    "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.EventDriven\\Hesabo.EventDriven.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\NewHesabo\\Hesabo\\shared\\Hesabo.EventDriven\\Hesabo.EventDriven.csproj",
+        "projectUniqueName": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.EventDriven\\Hesabo.EventDriven.csproj",
         "projectName": "Hesabo.EventDriven",
-        "projectPath": "C:\\projects\\NewHesabo\\Hesabo\\shared\\Hesabo.EventDriven\\Hesabo.EventDriven.csproj",
+        "projectPath": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.EventDriven\\Hesabo.EventDriven.csproj",
         "packagesPath": "C:\\Users\\Arezu\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\NewHesabo\\Hesabo\\shared\\Hesabo.EventDriven\\obj\\",
+        "outputPath": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.EventDriven\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Arezu\\AppData\\Roaming\\NuGet\\NuGet.Config"

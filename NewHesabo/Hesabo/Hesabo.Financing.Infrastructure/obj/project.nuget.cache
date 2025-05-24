@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KzURWxCtSZ/nqXlszLRnF2P7eL45dcyS7KC+mW6RdbJsyUO73kjIilijJ/OMtFAsMuyevEVDdT4KqBP2ECbkFQ==",
+  "dgSpecHash": "gLs3alcJ7P8JXLR2lHlKQdyM9t6ROhg2hs9vmKjmQbGsYQl2aBN1m+4siYHmncn9MFQ0BhohCM+GlI+wGA5CCQ==",
   "success": true,
-  "projectFilePath": "C:\\projects\\NewHesabo\\Hesabo\\Hesabo.Financing.Infrastructure\\Hesabo.Financing.Infrastructure.csproj",
+  "projectFilePath": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\Hesabo.Financing.Infrastructure\\Hesabo.Financing.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arezu\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Arezu\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

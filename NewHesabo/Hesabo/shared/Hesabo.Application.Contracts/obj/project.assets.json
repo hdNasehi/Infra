@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projects\\NewHesabo\\Hesabo\\shared\\Hesabo.Application.Contracts\\Hesabo.Application.Contracts.csproj",
+      "projectUniqueName": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.Application.Contracts\\Hesabo.Application.Contracts.csproj",
       "projectName": "Hesabo.Application.Contracts",
-      "projectPath": "C:\\projects\\NewHesabo\\Hesabo\\shared\\Hesabo.Application.Contracts\\Hesabo.Application.Contracts.csproj",
+      "projectPath": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.Application.Contracts\\Hesabo.Application.Contracts.csproj",
       "packagesPath": "C:\\Users\\Arezu\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\NewHesabo\\Hesabo\\shared\\Hesabo.Application.Contracts\\obj\\",
+      "outputPath": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.Application.Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Arezu\\AppData\\Roaming\\NuGet\\NuGet.Config"

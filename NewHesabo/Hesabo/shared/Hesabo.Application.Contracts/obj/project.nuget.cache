@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ta0zObCcSwt93xHj1s/9j6du/3RMyx1ZjyEw9HoXNZK5WAlqMVdaU9uGxqfx+TSoCEpcO5VtoCcsX5NsTLru1A==",
+  "dgSpecHash": "BQJw35yxXJtuRTDh+ZCRbiqz8tTkYgK6deieIKtVPnPiYXtU8bf/qPRAp8DBHsENWw756vNu6gTSa3FWKN4wuA==",
   "success": true,
-  "projectFilePath": "C:\\projects\\NewHesabo\\Hesabo\\shared\\Hesabo.Application.Contracts\\Hesabo.Application.Contracts.csproj",
+  "projectFilePath": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.Application.Contracts\\Hesabo.Application.Contracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Vc0TmhDoMHs63W+CZvJf2fKWIe3E1l3g2/1D9YVLAu5DJBysyiGsnlyPU4RZyiYXR7AhYB07QHz1iQs6LgH1vw==",
+  "dgSpecHash": "H+7pj0/LSd7xSZSwxCZujQbO6D2cv0p/uhfe5atJLdtNAGBgRVtadOdxu6ckdy56+8fYG59XHBlVxwfjuJ/Ntw==",
   "success": true,
-  "projectFilePath": "C:\\projects\\NewHesabo\\Hesabo\\shared\\Hesabo.EventDriven\\Hesabo.EventDriven.csproj",
+  "projectFilePath": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.EventDriven\\Hesabo.EventDriven.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arezu\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.0-preview.3.25171.5\\microsoft.extensions.dependencyinjection.10.0.0-preview.3.25171.5.nupkg.sha512",
     "C:\\Users\\Arezu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0-preview.3.25171.5\\microsoft.extensions.dependencyinjection.abstractions.10.0.0-preview.3.25171.5.nupkg.sha512"

@@ -1,5 +1,13 @@
-﻿namespace Hesabo.Foundation.Queries;
+﻿using MediatR;
 
-public interface IQuery<TResponse>
+namespace Hesabo.Foundation.Queries;
+
+public interface IQuery<TResponse> : IRequest<TResponse>
 {
+    Guid CorrelationId { get; }
+}
+
+public class Query<TResponse> : IQuery<TResponse>
+{
+    public Guid CorrelationId { get; protected set; } = Guid.NewGuid();
 }

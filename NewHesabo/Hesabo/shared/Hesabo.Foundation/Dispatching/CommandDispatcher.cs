@@ -1,9 +1,11 @@
 ﻿using Hesabo.Foundation.Commands;
+using Hesabo.Foundation.Queries;
 using MediatR;
 
 namespace Hesabo.Foundation.Dispatching
 {
-    public class CommandDispatcher : ICommandDispatcher
+  
+    public class CommandDispatcher : ICommandDispatcher,IQueryDispatcher
     {
         private readonly IMediator _mediator;
 
@@ -23,5 +25,11 @@ namespace Hesabo.Foundation.Dispatching
         {
             return await _mediator.Send(command, cancellationToken);
         }
+
+        public async Task<TResponse> QueryAsync<TResponse>(IQuery<TResponse> query, CancellationToken cancellationToken = default)
+        {
+            return await _mediator.Send(query, cancellationToken);
+        }
+       
     }
 }

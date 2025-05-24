@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\NewHesabo\\Hesabo\\shared\\Hesabo.Domain.Abstractions\\Hesabo.Domain.Abstractions.csproj": {}
+    "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.Domain.Abstractions\\Hesabo.Domain.Abstractions.csproj": {}
   },
   "projects": {
-    "C:\\projects\\NewHesabo\\Hesabo\\shared\\Hesabo.Domain.Abstractions\\Hesabo.Domain.Abstractions.csproj": {
+    "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.Domain.Abstractions\\Hesabo.Domain.Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\NewHesabo\\Hesabo\\shared\\Hesabo.Domain.Abstractions\\Hesabo.Domain.Abstractions.csproj",
+        "projectUniqueName": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.Domain.Abstractions\\Hesabo.Domain.Abstractions.csproj",
         "projectName": "Hesabo.Domain.Abstractions",
-        "projectPath": "C:\\projects\\NewHesabo\\Hesabo\\shared\\Hesabo.Domain.Abstractions\\Hesabo.Domain.Abstractions.csproj",
+        "projectPath": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.Domain.Abstractions\\Hesabo.Domain.Abstractions.csproj",
         "packagesPath": "C:\\Users\\Arezu\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\NewHesabo\\Hesabo\\shared\\Hesabo.Domain.Abstractions\\obj\\",
+        "outputPath": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.Domain.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Arezu\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\projects\\NewHesabo\\Hesabo\\shared\\Hesabo.Foundation\\Hesabo.Foundation.csproj": {
-                "projectPath": "C:\\projects\\NewHesabo\\Hesabo\\shared\\Hesabo.Foundation\\Hesabo.Foundation.csproj"
+              "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.Foundation\\Hesabo.Foundation.csproj": {
+                "projectPath": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.Foundation\\Hesabo.Foundation.csproj"
               }
             }
           }
@@ -61,14 +61,14 @@
         }
       }
     },
-    "C:\\projects\\NewHesabo\\Hesabo\\shared\\Hesabo.Foundation\\Hesabo.Foundation.csproj": {
+    "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.Foundation\\Hesabo.Foundation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\NewHesabo\\Hesabo\\shared\\Hesabo.Foundation\\Hesabo.Foundation.csproj",
+        "projectUniqueName": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.Foundation\\Hesabo.Foundation.csproj",
         "projectName": "Hesabo.Foundation",
-        "projectPath": "C:\\projects\\NewHesabo\\Hesabo\\shared\\Hesabo.Foundation\\Hesabo.Foundation.csproj",
+        "projectPath": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.Foundation\\Hesabo.Foundation.csproj",
         "packagesPath": "C:\\Users\\Arezu\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\NewHesabo\\Hesabo\\shared\\Hesabo.Foundation\\obj\\",
+        "outputPath": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.Foundation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Arezu\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -105,7 +105,11 @@
             },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[12.0.0, )"
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
