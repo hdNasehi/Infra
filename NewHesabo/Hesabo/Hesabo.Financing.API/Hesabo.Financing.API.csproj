@@ -8,11 +8,14 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.6" />
+    <PackageReference Include="Hesabo.Framework.Infrastructure" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Hesabo.Financing.Infrastructure\Hesabo.Financing.Infrastructure.csproj" />
+    <ProjectReference Include="..\shared\Hesabo.EventDriven\Hesabo.EventDriven.csproj" />
     <ProjectReference Include="..\shared\Hesabo.Foundation\Hesabo.Foundation.csproj" />
   </ItemGroup>
 

@@ -9,11 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hesabo.Foundation", "shared
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hesabo.Domain.Abstractions", "shared\Hesabo.Domain.Abstractions\Hesabo.Domain.Abstractions.csproj", "{4714F869-34D9-4D6C-B33B-C52199BADB52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hesabo.Application.Contracts", "shared\Hesabo.Application.Contracts\Hesabo.Application.Contracts.csproj", "{835362B5-9968-41D5-A134-D4DE09E677E1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hesabo.Messaging", "shared\Hesabo.Messaging\Hesabo.Messaging.csproj", "{5E881DA5-1853-4932-A837-C17AB1BF5EBB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hesabo.EventDriven", "shared\Hesabo.EventDriven\Hesabo.EventDriven.csproj", "{6D91320B-9109-4CC9-A887-54693048C1D1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hesabo.Contracts", "shared\Hesabo.Contracts\Hesabo.Contracts.csproj", "{835362B5-9968-41D5-A134-D4DE09E677E1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hesabo.Financing.Domain", "Hesabo.Financing.Domain\Hesabo.Financing.Domain.csproj", "{758D3628-BAFF-4215-A933-AF2A53FA9748}"
 EndProject
@@ -22,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hesabo.Financing.Infrastructure", "Hesabo.Financing.Infrastructure\Hesabo.Financing.Infrastructure.csproj", "{3D3B7A80-11C3-4FC1-BA5E-55B065AA529F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hesabo.Financing.API", "Hesabo.Financing.API\Hesabo.Financing.API.csproj", "{CC6F4B16-F372-4786-AE72-D6047EF6763C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hesabo.EventDriven", "shared\Hesabo.EventDriven\Hesabo.EventDriven.csproj", "{7F2D7844-D2E5-4E25-93B1-3B7FD52411C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,14 +42,6 @@ Global
 		{835362B5-9968-41D5-A134-D4DE09E677E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{835362B5-9968-41D5-A134-D4DE09E677E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{835362B5-9968-41D5-A134-D4DE09E677E1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5E881DA5-1853-4932-A837-C17AB1BF5EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5E881DA5-1853-4932-A837-C17AB1BF5EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5E881DA5-1853-4932-A837-C17AB1BF5EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5E881DA5-1853-4932-A837-C17AB1BF5EBB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6D91320B-9109-4CC9-A887-54693048C1D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6D91320B-9109-4CC9-A887-54693048C1D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6D91320B-9109-4CC9-A887-54693048C1D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6D91320B-9109-4CC9-A887-54693048C1D1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{758D3628-BAFF-4215-A933-AF2A53FA9748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{758D3628-BAFF-4215-A933-AF2A53FA9748}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{758D3628-BAFF-4215-A933-AF2A53FA9748}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -68,12 +58,15 @@ Global
 		{CC6F4B16-F372-4786-AE72-D6047EF6763C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC6F4B16-F372-4786-AE72-D6047EF6763C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC6F4B16-F372-4786-AE72-D6047EF6763C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F2D7844-D2E5-4E25-93B1-3B7FD52411C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F2D7844-D2E5-4E25-93B1-3B7FD52411C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F2D7844-D2E5-4E25-93B1-3B7FD52411C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F2D7844-D2E5-4E25-93B1-3B7FD52411C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AC9FB0A4-A5FB-472C-869D-492983CF056E} = {601B15FE-964B-47B2-AA6C-1BE2ADF11591}
 		{4714F869-34D9-4D6C-B33B-C52199BADB52} = {601B15FE-964B-47B2-AA6C-1BE2ADF11591}
 		{835362B5-9968-41D5-A134-D4DE09E677E1} = {601B15FE-964B-47B2-AA6C-1BE2ADF11591}
-		{5E881DA5-1853-4932-A837-C17AB1BF5EBB} = {601B15FE-964B-47B2-AA6C-1BE2ADF11591}
-		{6D91320B-9109-4CC9-A887-54693048C1D1} = {601B15FE-964B-47B2-AA6C-1BE2ADF11591}
+		{7F2D7844-D2E5-4E25-93B1-3B7FD52411C1} = {601B15FE-964B-47B2-AA6C-1BE2ADF11591}
 	EndGlobalSection
 EndGlobal

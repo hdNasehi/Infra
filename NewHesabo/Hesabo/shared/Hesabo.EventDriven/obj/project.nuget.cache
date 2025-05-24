@@ -1,11 +1,31 @@
 {
   "version": 2,
-  "dgSpecHash": "H+7pj0/LSd7xSZSwxCZujQbO6D2cv0p/uhfe5atJLdtNAGBgRVtadOdxu6ckdy56+8fYG59XHBlVxwfjuJ/Ntw==",
+  "dgSpecHash": "GwQu4Oe0+1wQHOtRvN2+IJqusZy4fJVIDt1eoztNpyCRlv79QQmOUR2DHSHf1pAjoNAeeD9aWGuFQSx5FMuakg==",
   "success": true,
   "projectFilePath": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.EventDriven\\Hesabo.EventDriven.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Arezu\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.0-preview.3.25171.5\\microsoft.extensions.dependencyinjection.10.0.0-preview.3.25171.5.nupkg.sha512",
-    "C:\\Users\\Arezu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0-preview.3.25171.5\\microsoft.extensions.dependencyinjection.abstractions.10.0.0-preview.3.25171.5.nupkg.sha512"
+    "C:\\Users\\Arezu\\.nuget\\packages\\framework.messagebus.abstraction\\1.5.3.2041111\\framework.messagebus.abstraction.1.5.3.2041111.nupkg.sha512",
+    "C:\\Users\\Arezu\\.nuget\\packages\\masstransit\\8.3.0\\masstransit.8.3.0.nupkg.sha512",
+    "C:\\Users\\Arezu\\.nuget\\packages\\masstransit.abstractions\\8.3.0\\masstransit.abstractions.8.3.0.nupkg.sha512",
+    "C:\\Users\\Arezu\\.nuget\\packages\\masstransit.rabbitmq\\8.3.0\\masstransit.rabbitmq.8.3.0.nupkg.sha512",
+    "C:\\Users\\Arezu\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\Arezu\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Arezu\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.5\\microsoft.extensions.configuration.abstractions.9.0.5.nupkg.sha512",
+    "C:\\Users\\Arezu\\.nuget\\packages\\microsoft.extensions.configuration.binder\\9.0.5\\microsoft.extensions.configuration.binder.9.0.5.nupkg.sha512",
+    "C:\\Users\\Arezu\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.5\\microsoft.extensions.dependencyinjection.9.0.5.nupkg.sha512",
+    "C:\\Users\\Arezu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.5\\microsoft.extensions.dependencyinjection.abstractions.9.0.5.nupkg.sha512",
+    "C:\\Users\\Arezu\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\9.0.5\\microsoft.extensions.diagnostics.abstractions.9.0.5.nupkg.sha512",
+    "C:\\Users\\Arezu\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks\\8.0.0\\microsoft.extensions.diagnostics.healthchecks.8.0.0.nupkg.sha512",
+    "C:\\Users\\Arezu\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks.abstractions\\8.0.0\\microsoft.extensions.diagnostics.healthchecks.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Arezu\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\9.0.5\\microsoft.extensions.fileproviders.abstractions.9.0.5.nupkg.sha512",
+    "C:\\Users\\Arezu\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\9.0.5\\microsoft.extensions.hosting.abstractions.9.0.5.nupkg.sha512",
+    "C:\\Users\\Arezu\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.5\\microsoft.extensions.logging.abstractions.9.0.5.nupkg.sha512",
+    "C:\\Users\\Arezu\\.nuget\\packages\\microsoft.extensions.options\\9.0.5\\microsoft.extensions.options.9.0.5.nupkg.sha512",
+    "C:\\Users\\Arezu\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.5\\microsoft.extensions.primitives.9.0.5.nupkg.sha512",
+    "C:\\Users\\Arezu\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512",
+    "C:\\Users\\Arezu\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.5\\system.diagnostics.diagnosticsource.9.0.5.nupkg.sha512",
+    "C:\\Users\\Arezu\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Arezu\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

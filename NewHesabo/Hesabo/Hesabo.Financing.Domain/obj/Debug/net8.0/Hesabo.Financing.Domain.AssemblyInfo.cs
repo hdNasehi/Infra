@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hesabo.Financing.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e809a5bef7ac4cf018b51988dc8a5bba1144299")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d36b7570bd990ff50579ce5b81e4a45f7f219bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hesabo.Financing.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hesabo.Financing.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

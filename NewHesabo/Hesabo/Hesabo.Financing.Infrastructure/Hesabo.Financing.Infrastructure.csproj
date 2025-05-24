@@ -7,6 +7,12 @@
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0"/>
+        <PackageReference Include="Hesabo.Framework.Infrastructure"/>
+        <PackageReference Include="Framework.MessageBus.Abstraction"/>
+
+        <ProjectReference Include="..\shared\Hesabo.EventDriven\Hesabo.EventDriven.csproj"/>
+
+        <ProjectReference Include="..\shared\Hesabo.Foundation\Hesabo.Foundation.csproj" />
     </ItemGroup>
 
 </Project>

@@ -26,6 +26,12 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\projects\\Infra\\NewHesabo\\Hesabo\\Hesabo.Financing.Infrastructure\\Hesabo.Financing.Infrastructure.csproj": {
+                "projectPath": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\Hesabo.Financing.Infrastructure\\Hesabo.Financing.Infrastructure.csproj"
+              },
+              "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.EventDriven\\Hesabo.EventDriven.csproj": {
+                "projectPath": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.EventDriven\\Hesabo.EventDriven.csproj"
+              },
               "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.Foundation\\Hesabo.Foundation.csproj": {
                 "projectPath": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.Foundation\\Hesabo.Foundation.csproj"
               }
@@ -42,6 +48,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Hesabo.Framework.Infrastructure": {
+              "target": "Package",
+              "version": "(, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -70,6 +80,167 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\projects\\Infra\\NewHesabo\\Hesabo\\Hesabo.Financing.Infrastructure\\Hesabo.Financing.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\Hesabo.Financing.Infrastructure\\Hesabo.Financing.Infrastructure.csproj",
+        "projectName": "Hesabo.Financing.Infrastructure",
+        "projectPath": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\Hesabo.Financing.Infrastructure\\Hesabo.Financing.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Arezu\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\Hesabo.Financing.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Arezu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.EventDriven\\Hesabo.EventDriven.csproj": {
+                "projectPath": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.EventDriven\\Hesabo.EventDriven.csproj"
+              },
+              "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.Foundation\\Hesabo.Foundation.csproj": {
+                "projectPath": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.Foundation\\Hesabo.Foundation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Framework.MessageBus.Abstraction": {
+              "target": "Package",
+              "version": "(, )"
+            },
+            "Hesabo.Framework.Infrastructure": {
+              "target": "Package",
+              "version": "(, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.EventDriven\\Hesabo.EventDriven.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.EventDriven\\Hesabo.EventDriven.csproj",
+        "projectName": "Hesabo.EventDriven",
+        "projectPath": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.EventDriven\\Hesabo.EventDriven.csproj",
+        "packagesPath": "C:\\Users\\Arezu\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\Infra\\NewHesabo\\Hesabo\\shared\\Hesabo.EventDriven\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Arezu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Framework.MessageBus.Abstraction": {
+              "target": "Package",
+              "version": "[1.5.3.2041111, )"
+            },
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

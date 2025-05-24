@@ -2,5 +2,5 @@
 
 public interface IEventBus
 {
-    Task PublishAsync<TEvent>(TEvent @event) where TEvent : IIntegrationEvent;
+    Task PublishAsync<TEvent>(TEvent @event, CancellationToken cancellationToken = default) where TEvent : class;
 }
