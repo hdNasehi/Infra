@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hesabo.EventDriven")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d36b7570bd990ff50579ce5b81e4a45f7f219bb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b39d6254239ddc7c4891ed6275d735a9af99dd82")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hesabo.EventDriven")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hesabo.EventDriven")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
